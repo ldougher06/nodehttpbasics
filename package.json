@@ -1,0 +1,27 @@
+{
+  "name": "nodehttpbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "mocha test/unit --recursive",
+    "test-integration": "mocha test/integration --recursive"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldougher06/nodehttpbasics.git"
+  },
+  "author": "logan dougher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldougher06/nodehttpbasics/issues"
+  },
+  "homepage": "https://github.com/ldougher06/nodehttpbasics#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
