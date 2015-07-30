@@ -5,7 +5,8 @@
   "main": "app.js",
   "directories": {
     "test": "mocha test/unit --recursive",
-    "test-integration": "mocha test/integration --recursive"
+    "test-integration": "mocha test/integration --recursive",
+    "start": "node app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +24,10 @@
   "devDependencies": {
     "chai": "^3.2.0",
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
   }
 }
